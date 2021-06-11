@@ -107,18 +107,18 @@ namespace RetContorno
 
                     if (linhaAtual == 1 || linhaAtual == qtdLinhas)
                     {
-                        Console.Write("*");
+                        Console.Write("* ");
                     }
                     else
                     {
                         if (colunaAtual == 1 || colunaAtual == qtdColunas)
                         {
-                            Console.Write("*");
+                            Console.Write("* ");
 
                         }
                         else
                         {
-                            Console.Write(" ");
+                            Console.Write("  ");
                         }
                     }
                 }
